@@ -12,6 +12,7 @@
 </head>
 <body>
 	<script>
+		/*
 		window.setTimeout(vai,1000)
 		function vai(){
 			document.getElementById('emdev').style.opacity='1'
@@ -19,7 +20,7 @@
 		function fechadev(){
 			document.getElementById('emdev').style.opacity='0'
 			document.getElementById('emdev').style.display='none'
-		}
+		}*/
 		function tapSaberm(){
 			open('https://api.whatsapp.com/send?phone=5562995729868')
 		}
@@ -31,10 +32,11 @@
 	</div>
 	<header id='cabecalho'><img src="site.logo2.png" alt="">
 		<div>
-			<h2>Venda | Assistência técnica, Dicas e Download de programas...</h2>
+			<h2>Venda | Assistência técnica, informática e celulares...</h2>
 		</div>
 	</header>
 
+<!--
 	<div id="emdev">
 		<div id="h2">
 			<span onclick="fechadev()" id="sabx"></span>
@@ -46,10 +48,29 @@
 		</div>
 		
 	</div>
+-->
 
     <div id="scorpions">
 		<article id="supRemoto">
 			<ul>
+				<li>
+					<!--<img src="tr3.png" alt="">-->
+					<div>
+						<h2>Formatação</h2>
+						<p>Resolva lentidão, e outros problemas de sistema, com uma formatação.</p>
+						<button class="sabertap" onclick="tapSaberm()">Agendar</button>
+					</div>
+				</li>
+
+				<li>
+					<!--<img src="tr2.png" alt="">-->
+					<div>
+						<h2>Visita Técnica</h2>
+						<p>Marcar um horário para receber um técnico em sua residência.</p>
+						<button  class="sabertap" onclick="tapSaberm()">Agendar</button>
+					</div>
+				</li>
+
 				<li>
 					<!--<img src="tr1.png" alt="">-->
 					<div>
@@ -59,22 +80,7 @@
 						<button  class="sabertap" onclick="tapSaberm()">Agendar</button>
 					</div>
 				</li>
-				<li>
-					<!--<img src="tr2.png" alt="">-->
-					<div>
-						<h2>Visita Técnica</h2>
-						<p>Marcar um horário para receber um técnico em sua residência.</p>
-						<button  class="sabertap" onclick="tapSaberm()">Agendar</button>
-					</div>
-				</li>
-				<li>
-					<!--<img src="tr3.png" alt="">-->
-					<div>
-						<h2>Formatação</h2>
-						<p>Resolva lentidão, e outros problemas de sistema, com uma formatação.</p>
-						<button class="sabertap" onclick="tapSaberm()">Agendar</button>
-					</div>
-				</li>
+
 			</ul>
 		</article>
 
@@ -155,10 +161,8 @@
 		<button><a href="https://api.whatsapp.com/send?phone=5562995729868&text=" target='_blank'>Mandar mensagem</a></button>
 	</div>
 
-
 </section>
 			</article>
-
 
             <article id="listPgms">
 		        <ul id='ulistPgms'>
